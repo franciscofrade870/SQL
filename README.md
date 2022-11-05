@@ -28,5 +28,4 @@ So from looking at that one query there is one thing that stands out, which is w
 
 <img src="SQL.png">
 
-Now the question then becomes what do we change the single quote into to really get information out of this. 
-
+Now the question then becomes to what do we change the single quote into, to really get information out of this. 
