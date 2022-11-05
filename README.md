@@ -26,6 +26,7 @@ Let's first break down what first happened. The query was searching for a specif
 
 So from looking at that one query there is one thing that stands out, which is we are able to control one thing, the key word that is being search for. Now lets go back to the single quote `'`. In the picture below you see two queries. Pay attention to the second query, notice something different? Yes the first `%` is inside what it thinks is a proper string but the second one outside of it is not longer in a proper string. Hence the sever error from the beginning. Interesting enough that one single quote will break SQL sending a malformed query to the php server. 
 
+<img src="SQL.png">
+
 Now the question then becomes what do we change the single quote into to really get information out of this. 
 
-<img src="SQL.png">
